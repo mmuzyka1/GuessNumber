@@ -17,7 +17,7 @@ public class Main {
                 } else {
                     if (usersNumber != numberToGuess && count < 4) {
                         count++;
-                        System.out.println("Please try again. You have " + (5 - count) + " tries left.");
+                        System.out.println("Please try again. Number of tries remaining: " + (5 - count));
                     } else if (usersNumber == numberToGuess) {
                         System.out.println("You guessed it!");
                         break;
